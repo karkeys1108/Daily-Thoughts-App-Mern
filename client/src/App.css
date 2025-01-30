@@ -1,0 +1,13 @@
+.hideScrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .hideScrollbar {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+  .prevent-select {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
